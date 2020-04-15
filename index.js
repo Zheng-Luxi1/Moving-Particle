@@ -38,6 +38,10 @@ canvas.addEventListener('mousemove',function(e){
 
 function draw(){
 	gd.clearRect( 0, 0, canvas.width, canvas.height );
+	gd.fillStyle = 'rgba( 255, 255, 255, 0.3 )';
+	gd.textAlign = 'center';
+	gd.textBaseline = 'middle';
+	gd.fillText( "Author: Zheng-Luxi", canvas.width / 2, canvas.height / 2 );
 	for( let item of balls ){
 		gd.beginPath();
 		gd.fillStyle = 'gray';
