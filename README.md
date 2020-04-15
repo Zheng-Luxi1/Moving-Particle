@@ -2,7 +2,7 @@
 canvas 移动粒子动画    
 
 
-Canvas Moving-Particle Animation
+(Canvas Moving-Particle Animation)
 Using Language
 1. HTML(Canvas)
 2. CSS(Layout)
